@@ -53,13 +53,14 @@ body{
     padding: 5px;
     position: relative;
     top: -23%;
+    font-size:2vw;
 }
 
 #closeabout{
     font-size: 5vw;
     font-weight: bolder;
-    width: 7vw;
-    height: 4vw;
+    width: 8vw;
+    height: 5vw;
     background-color: red;
     padding: 3px;
     text-align: center;
