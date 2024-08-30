@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=width="", initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game</title>
+</head>
+<link rel="stylesheet" href="main.css">
+<body>
+    <!--Menu Screen-->
+    <div id="MenuScreen">
+        <div class="bgimg">
+            <div id="bgbtn"></div>
+            <div id="aboutbtn"></div>
+            <div id="about">
+                <div id="closeabout">X</div>
+                <strong>Game Created by:</strong> <strong>Md Shagaf Raiyan Rashid</strong><br>  
+Visit my [website](https://yourwebsite.com) and check out my [GitHub profile](https://github.com/yourprofile) for more projects.
+
+<h3>Game Story and Objective:</h3><br>
+In this game, you play as a thief who has taken this path for love. Once a normal person, you turned to crime to save your beloved, who is gravely ill in the hospital. To save her life, you need to steal millions of dollars, but time is running out. The authorities are closing in, and if you fail to unlock the vault door and escape, you will be arrested. Worse, if you’re caught, your beloved will die waiting for you in the hospital.<br>
+
+<h3>How to Play:</h3><br>
+Your mission is to unlock a 3-digit code to escape with the stolen money. Each guess you make must be a 3-digit number. After each attempt, you will be given a set of clues to help you crack the code.<br>
+
+<strong>C --></strong> means one of the digits in your guess is correct and is in the right position.<br>
+<strong>N --></strong> means one of the digits in your guess is correct but is in the wrong position.<br>
+<strong>X --></strong> means that digit is incorrect and not present in the code.<br><br>
+
+However, the clues do not tell you which specific number is right or wrong, only how many match, so you'll need to carefully analyze each clue to narrow down the possibilities. You have a limited number of attempts, and each mistake brings you closer to failure. If you open the vault in time, you survive and save your beloved. If you fail, you are arrested, and your love story ends tragically.<br>
+
+Can you unlock the door in time and save both your life and your love?
+                
+            </div>
+        </div>
+    </div>
+    
+    <!--Main Screen-->
+    <div id="MainScreen">
+        <div class="bgimgt">
+            <div id="screen"></div>
+            <div class="numpad">
+                <div class="npbtn" id="np1"></div>
+                <div class="npbtn" id="np2"></div>
+                <div class="npbtn" id="np3"></div>
+                <div class="npbtn" id="np4"></div>
+                <div class="npbtn" id="np5"></div>
+                <div class="npbtn" id="np6"></div>
+                <div class="npbtn" id="np7"></div>
+                <div class="npbtn" id="np8"></div>
+                <div class="npbtn" id="np9"></div>
+                <div class="npbtn" id="np0"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Score Screen-->
+    <div id="ScoreScreen">
+        <div id="bgimgth">
+            <div id="output">You Loss, you are under arrest</div>
+            <div id="replay">Replay</div>
+        </div>
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>

@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #320162
+}
+
+
+#MenuScreen{
+    display: block;
+    width:90vw;
+    height: 90vh;
+    border-radius: 20px;
+    border: 3px solid deeppink;
+}
+.bgimg{
+    width:90vw;
+    height: 90vh;
+    background-image: url('menu.png');
+    background-size: cover;
+    border-radius: 20px;
+}
+#bgbtn{
+    width: 14vw;
+    height: 14vw;
+    background-image: url('playbtn.png');
+    background-size: cover;
+    position: relative;
+    top: 54%;
+    left: 5%;
+}
+
+#aboutbtn{
+    width: 14vw;
+    height: 14vw;
+    background-image: url('about.png');
+    background-size: cover;
+    position: relative;
+    top: 65%;
+    left: 5%;
+}
+
+#about{
+    display: none;
+    color: white;
+    border: 3px solid yellow;
+    border-radius: 15px;
+    background-color: #067DFF;
+    padding: 5px;
+    position: relative;
+    top: -23%;
+}
+
+#closeabout{
+    font-size: 5vw;
+    font-weight: bolder;
+    width: 7vw;
+    height: 4vw;
+    background-color: red;
+    padding: 3px;
+    text-align: center;
+    position: relative;
+    left:90%;
+    border-radius: 5px;
+}
+
+#MainScreen{
+    display: none;
+    width:90vw;
+    height: 90vh;
+    border-radius: 20px;
+    border: 3px solid deeppink;
+}
+.bgimgt{
+    width:90vw;
+    height: 90vh;
+    background-image: url('main.png');
+    background-size: cover;
+    border-radius: 20px;
+}
+.npbtn{
+    width: 12vw;
+    height: 7.5vh;
+    background-size: cover;
+    position: absolute;
+}
+#np1{
+    background-image: url('1.png');
+    top: 70%;
+    left: 15%;
+}
+#np2{
+    background-image: url('2.png');
+    top: 70%;
+    left: 30%;
+}
+#np3{
+    background-image: url('3.png');
+    top: 70%;
+    left: 45%;
+}
+#np4{
+    background-image: url('4.png');
+    top: 70%;
+    left: 60%;
+}
+#np5{
+    background-image: url('5.png');
+    top: 70%;
+    left: 75%;
+}
+#np6{
+    background-image: url('6.png');
+    top: 80%;
+    left: 15%;
+}
+#np7{
+    background-image: url('7.png');
+    top: 80%;
+    left: 30%;
+}
+#np8{
+    background-image: url('8.png');
+    top: 80%;
+    left: 45%;
+}
+#np9{
+    background-image: url('9.png');
+    top: 80%;
+    left: 60%;
+}
+#np0{
+    background-image: url('0.png');
+    top: 80%;
+    left: 75%;
+}
+#screen{
+    width: 55vw;
+    height: 10vh;
+    background-color: black;
+    position: absolute;
+    left: 24%;
+    border-radius: 20px;
+    top: 25.5%;
+    color: aqua;
+    font-size: 15vmin;
+    text-align: center;
+}
+#ScoreScreen{
+    display: none;
+    width:90vw;
+    height: 90vh;
+    border-radius: 20px;
+    border: 3px solid deeppink;
+    justify-content: center;
+    
+}
+#bgimgth{
+    width:90vw;
+    height: 90vh;
+    background-size: cover;
+    border-radius: 20px;
+}
+#output{
+    color: black;
+    font-weight: bolder;
+    font-size: 10vw;
+    text-align: center;
+    border-radius: 15px;
+}
+#replay{
+    width: 30vw;
+    height: 7vh;
+    border-radius: 25px;
+    background-color: yellow;
+    color: black;
+    position: relative;
+    top: 75%;
+    font-size: 10vw;
+    text-align: center;
+    left: 32%;
+}
